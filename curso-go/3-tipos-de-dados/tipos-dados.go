@@ -1,0 +1,17 @@
+package main
+
+import (
+	"errors"
+	"fmt"
+)
+
+func main() {
+
+	//BASICAMENTE É IGUAL TODAS AS LINGUAGENS, PORÉM QUE QUE FICAR LIGADO NO FATO DE QUE EXISTE A POSSIBILIDADE DEPENDENDO DA ARQUITETURA DO COMPUTADOR QUE VOU CRIAR O PROGRAMA USANDO AS EXT(8,16,32,64)
+
+	//TIPO DE ERRO QUE É MUITO USADO
+
+	var erro error = errors.New("msg de erro!")
+
+	fmt.Println(erro)
+}
